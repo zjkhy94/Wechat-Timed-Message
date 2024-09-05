@@ -1,4 +1,4 @@
-name: 'TITLE1' # change here for `name`
+name: '1' # change here for `name`
 concurrency: report-${{ github.ref }}
 
 on:
