@@ -102,13 +102,13 @@ else:
 title = os.environ['TITLE']
 message = os.environ['MSG']
 
-if pptoken:
+if pptoken: 20ae22fd4a3e4fe9b2c488118dd4fa3e
     try:
         host = "http://www.pushplus.plus/"
         user = ""
         if not message:
             message = title
-            title = ""
+            title = "测试"
         title = urllib.parse.quote_plus(title.replace('\n', '<br>'))
         message = urllib.parse.quote_plus(message.replace('\n', '<br>'))
         res = requests.get(host + "send?token=" + pptoken + "&title=" + title +
