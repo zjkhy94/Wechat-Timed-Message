@@ -10,7 +10,7 @@ import urllib.parse
 sckey = os.environ['SERVERCHANSCKEY']
 pptoken = os.environ['PPTOKEN']
 pptopic = os.environ['PPTOPIC']
-title = os.environ['TITLE']
+title = os.environ['TITLE1']
 message = os.environ['MSG']
 content = os.environ['CONTENT']
 image = os.environ['IMAGE']
