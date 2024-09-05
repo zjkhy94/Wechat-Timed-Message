@@ -104,7 +104,7 @@ message = os.environ['MSG']
 
 if pptoken:
     try:
-        host = "http://www.pushplus.plus/"
+        host = "http://www.pushplus.plus/send"
         user = ""
         if not message:
             message = title
