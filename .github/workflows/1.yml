@@ -36,7 +36,7 @@ jobs:
             MSG: ${{ secrets[format('MSG{0}', github.workflow)] }}
             CONTENT: ${{ secrets[format('CONTENT{0}', github.workflow)] }}
             IMAGE: ${{ secrets[format('IMAGE{0}', github.workflow)] }}
-#           CORPID: ${{ secrets.CORPID }}
+           CORPID: ${{ secrets.CORPID }}
             CORPSECRET: ${{ secrets.CORPSECRET }}
             AGENTID: ${{ secrets.AGENTID }}
           run: python Wechat-Timed-Message.py
